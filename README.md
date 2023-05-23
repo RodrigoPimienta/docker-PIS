@@ -14,7 +14,7 @@
 ```
   docker-compose up --build
 ```
-> La siguiente vez que quieras correr el docker si todo salio bien, no es necesario agregar el '--build' en el comando.
+> La siguiente vez que quieras correr el docker no es necesario agregar el '--build' en el comando.
 
 
 
