@@ -7,4 +7,4 @@ services:
     ports:
       - ${port}:80
     volumes:
-      - .:/var/www/
+      - ${pathApp}:/var/www/

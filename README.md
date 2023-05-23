@@ -31,6 +31,14 @@
 ### port
 > Define el puerto de salida de la app que vas a usar
 
+### pathApp
+> Define el path de tu proyecto
+```env
+pathApp = './NombreDelRepo'
+```
+>Ejemplo
+
+
 ## Listo a trabajar.
 
 
