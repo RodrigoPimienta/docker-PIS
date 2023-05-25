@@ -21,10 +21,6 @@
 ## Environment file
 > Asigna valor a tus variables de ambiente
 
-### dockerImage 
-> Seleciona la imagen acorde con la app que vas a usar
-* App Nomina: francarmona/docker-ubuntu16-apache2-php7-mssql_client
-
 ### serverName
 > Define el nombre para tu servidor acorde con la app que vas a usar
 
@@ -32,12 +28,15 @@
 > Define el puerto de salida de la app que vas a usar
 
 ### pathApp
-> Define el path de tu proyecto
+> Define el path de tu proyecto que se va a incluir en el docker
 ```env
 pathApp = './NombreDelRepo'
 ```
 >Ejemplo
 
+
+## Xdebug
+Si vas a usar xdebug te dejo un ejemplo del launch.json en el archivo launch.Example.json
 
 ## Listo a trabajar.
 

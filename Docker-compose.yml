@@ -3,8 +3,12 @@ version: '3.1'
 services:
   php:
     container_name: 'server_${serverName}'
-    image: ${dockerImage}
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile
     ports:
       - ${port}:80
     volumes:
-      - ${pathApp}:/var/www/
+      - ${pathApp}:/var/www/html/
