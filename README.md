@@ -37,6 +37,7 @@ pathApp = './NombreDelRepo'
 
 ## Xdebug
 Si vas a usar xdebug te dejo un ejemplo del launch.json en el archivo launch.Example.json
+> Solo remplaza nameAppFolder por el nombre de la carpeta del repositorio que clonaste 
 
 ## Listo a trabajar.
 
