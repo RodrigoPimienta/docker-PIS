@@ -1,3 +1,4 @@
 serverName = 'server_name'
 port = '1111'
 pathApp = './miRepoClonado'
+passwordDB = ''
